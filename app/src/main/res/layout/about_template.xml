@@ -11,7 +11,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="বাঁচাও"
+            android:text="PUKAAR"
             android:textSize="30dp"
             android:textColor="@android:color/white"
             />
@@ -41,7 +41,7 @@
                 android:textSize="30dp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"
-                android:text="Farhan Sadaf"
+                android:text="TEAM 4"
                 />
         </LinearLayout>
         <ImageView

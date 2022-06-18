@@ -170,8 +170,9 @@ public class EmergencyActivity extends AppCompatActivity {
         }
         //make call to 999
         else{
-            String dial = "tel:" + "999";
-            startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            callIntent.setData(Uri.parse("tel:"+phonenumbers.get(0)));//change the number
+            startActivity(callIntent);
         }
     }
 
